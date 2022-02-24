@@ -1,0 +1,43 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Determining if files linux/serial.h exist failed with the following output:
+Change Dir: /Users/nieyu/tempfile/macinfo/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a83e6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a83e6.dir/build.make CMakeFiles/cmTC_a83e6.dir/build
+Building C object CMakeFiles/cmTC_a83e6.dir/HAVE_LINUX_SERIAL.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -MD -MT CMakeFiles/cmTC_a83e6.dir/HAVE_LINUX_SERIAL.c.o -MF CMakeFiles/cmTC_a83e6.dir/HAVE_LINUX_SERIAL.c.o.d -o CMakeFiles/cmTC_a83e6.dir/HAVE_LINUX_SERIAL.c.o -c /Users/nieyu/tempfile/macinfo/CMakeFiles/CheckIncludeFiles/HAVE_LINUX_SERIAL.c
+/Users/nieyu/tempfile/macinfo/CMakeFiles/CheckIncludeFiles/HAVE_LINUX_SERIAL.c:2:10: fatal error: 'linux/serial.h' file not found
+#include <linux/serial.h>
+         ^~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a83e6.dir/HAVE_LINUX_SERIAL.c.o] Error 1
+make: *** [cmTC_a83e6/fast] Error 2
+
+
+Source:
+/* */
+#include <linux/serial.h>
+
+
+int main(void){return 0;}
+

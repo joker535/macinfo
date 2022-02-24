@@ -1,0 +1,9 @@
+/Users/nieyu/tempfile/macinfo/CMakeFiles/install/local.dir
+/Users/nieyu/tempfile/macinfo/CMakeFiles/install/strip.dir
+/Users/nieyu/tempfile/macinfo/CMakeFiles/install.dir
+/Users/nieyu/tempfile/macinfo/CMakeFiles/list_install_components.dir
+/Users/nieyu/tempfile/macinfo/CMakeFiles/cserial_static.dir
+/Users/nieyu/tempfile/macinfo/CMakeFiles/rebuild_cache.dir
+/Users/nieyu/tempfile/macinfo/CMakeFiles/edit_cache.dir
+/Users/nieyu/tempfile/macinfo/CMakeFiles/macinfo.dir
+/Users/nieyu/tempfile/macinfo/CMakeFiles/cserial.dir

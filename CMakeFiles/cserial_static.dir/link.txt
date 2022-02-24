@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libcserial_static.a CMakeFiles/cserial_static.dir/c_serial.c.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libcserial_static.a

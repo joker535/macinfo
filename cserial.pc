@@ -1,0 +1,9 @@
+Name: C Serial library
+Description: A cross-platform library for working with serial ports in C.
+Version: 
+Requires: 
+prefix=/usr/local
+includedir=${prefix}/include
+libdir=${prefix}/lib
+Libs: -L${libdir} -lcserial
+Cflags: -I${includedir}
