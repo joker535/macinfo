@@ -100,7 +100,7 @@ void getCpuUsePercentage(char *dataout)
         long long pressure = (vm_stat.wire_count + vm_stat.compressor_page_count) * page_size;
 
         printf("m:%.2f%%c:%.2f%%\n",used * 1.0 / (free + used) * 100,value*100.0);
-        sprintf(dataout,"mc s%d s%d",(int)(231 * used * 1.0 / (free + used)),(int)(231 * value));
+        sprintf(dataout,"mcs%ds%d\n",(int)(231 * used * 1.0 / (free + used)),(int)(231 * value));
 
     }
 
